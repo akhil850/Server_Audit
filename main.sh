@@ -37,3 +37,5 @@ sh ./child_scripts/allow_ips.sh
 echo "Added important IPs"
 echo ""
 echo ""
+rm -rf /usr/src/Server_Audit
+echo "Done !!!!!"
