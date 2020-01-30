@@ -9,7 +9,7 @@ echo ""
 echo "#######################################"
 echo ""
 echo "Installing Required Modules...."
-sudo yum install epel-release curl git -y 2>&1 >/dev/null
+sudo yum install epel-release curl git wget -y 2>&1 >/dev/null
 echo "Done"
 echo "Setting Up Working Directories [/usr/src/]"
 rm -rf /usr/src/Server_Audit
