@@ -11,17 +11,12 @@ echo ""
 echo "Installing Required Modules...."
 sudo yum install epel-release curl git -y
 echo "Done"
-echo "Setting Up Working Directories [/usr/src/] "
+echo "Setting Up Working Directories [/usr/src/]"
+rm -rf /usr/src/Server_Audit
 cd /usr/src/
 git clone https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
 cd Server_Audit/
-echo "User confirmaton Required"
-read -p "Continue (y/n)?" choice
-case "$choice" in
-  y|Y ) echo "yes";;
-  n|N ) echo "no";;
-  * ) echo "invalid";;
-esac
+sh main.sh
 echo "Cleaning Up Working Directories [/usr/src/] "
 rm -rf /usr/src/Server_Audit/
 echo "#######################################"
