@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-yum install perl-libwww-perl.noarch perl-LWP-Protocol-https.noarch perl-GDGraph wget 2>&1 >/dev/null
+yum install wget -y
+yum install perl-libwww-perl.noarch perl-LWP-Protocol-https.noarch perl-GDGraph -y
 cd /usr/src
 rm -rf csf.tgz
 wget https://download.configserver.com/csf.tgz

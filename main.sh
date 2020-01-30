@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+echo ""
+echo ""
 echo "1. Peforming Full System Update"
 echo "------------------------------------"
 sh ./child_scripts/update_system.sh
