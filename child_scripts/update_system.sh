@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-echo "Full System Update Script"
-# yum install -y epel-release
-# yum update -y
+yum install -y epel-release 2>&1 >/dev/null
+yum update -y 2>&1 >/dev/null
