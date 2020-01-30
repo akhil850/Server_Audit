@@ -16,6 +16,7 @@ rm -rf /usr/src/Server_Audit
 cd /usr/src/
 git clone https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
 cd Server_Audit/
+#Main Script starts here
 sh main.sh
 echo "Cleaning Up Working Directories [/usr/src/] "
 rm -rf /usr/src/Server_Audit/
