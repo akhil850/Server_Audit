@@ -18,14 +18,3 @@ git clone https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
 cd Server_Audit/
 #Main Script starts here
 sh main.sh
-echo "Cleaning Up Working Directories [/usr/src/] "
-rm -rf /usr/src/Server_Audit/
-echo "#######################################"
-echo "#######################################"
-echo
-echo "!!!!! Completed !!!!!"
-echo "Linux Basic Security Setups"
-echo "Completed Time : \n$DATE \n$TIME"
-echo
-echo "#######################################"
-echo "#######################################"
