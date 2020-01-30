@@ -9,7 +9,7 @@ echo ""
 echo "#######################################"
 echo ""
 clear
-echo "Installing Git...."
+echo "Installing Required Modules...."
 sudo yum install epel-release curl git -y 2>&1 >/dev/null
 echo "Done"
 echo "Setting Up Working Directories [/usr/src/] "
@@ -25,7 +25,7 @@ while true; do
     esac
 done
 echo "Cleaning Up Working Directories [/usr/src/] "
-rm -rf /usr/src/Server_Audit/ 
+rm -rf /usr/src/Server_Audit/
 echo "#######################################"
 echo "#######################################"
 echo
