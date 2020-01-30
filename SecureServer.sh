@@ -8,9 +8,8 @@ echo "Starting Time : \n$DATE \n$TIME"
 echo ""
 echo "#######################################"
 echo ""
-clear
 echo "Installing Required Modules...."
-sudo yum install epel-release curl git -y 2>&1 >/dev/null
+sudo yum install epel-release curl git -y
 echo "Done"
 echo "Setting Up Working Directories [/usr/src/] "
 cd /usr/src/
