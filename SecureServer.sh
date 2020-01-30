@@ -3,7 +3,7 @@ DATE=$(date +"%m-%d-%Y")
 TIME=$(date +"%r")
 echo "#######################################"
 echo ""
-echo "Linux Basic Security Audit"
+echo "Linux Basic Security Setup v1.1a"
 echo "Starting Time : $DATE $TIME"
 echo ""
 echo "#######################################"
