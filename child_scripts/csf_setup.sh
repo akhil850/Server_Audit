@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Linux Basic Security Setup v1.2
 yum install wget -y
 yum install perl-libwww-perl.noarch perl-LWP-Protocol-https.noarch perl-GDGraph -y 2>&1 >/dev/null
 cd /usr/src

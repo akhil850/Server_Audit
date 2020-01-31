@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Linux Basic Security Setup v1.2
 DATE=$(date +"%m-%d-%Y")
 TIME=$(date +"%r")
 echo "#######################################"

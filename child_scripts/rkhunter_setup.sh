@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Linux Basic Security Setup v1.2
 sudo yum install epel-release -y 2>&1 >/dev/null
 sudo yum install rkhunter -y 2>&1 >/dev/null
 sudo rkhunter --update
