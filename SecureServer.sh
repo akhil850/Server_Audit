@@ -15,7 +15,7 @@ echo "Done"
 echo "Setting Up Working Directories"
 rm -rf /usr/src/Server_Audit
 cd /usr/src/
-git clone -q https://github.com/akhil850/Server_Audit.git
+git clone -q https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
 chmod +x /usr/src/Server_Audit/ -R
 cd Server_Audit/
 #Main Script starts
