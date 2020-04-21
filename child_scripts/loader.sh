@@ -26,7 +26,7 @@ _end=100
 # Proof of concept
 for number in $(seq ${_start} ${_end})
 do
-    sleep 0.1
+    sleep 0.05
     ProgressBar ${number} ${_end}
 done
 printf '\nFinished!\n'
