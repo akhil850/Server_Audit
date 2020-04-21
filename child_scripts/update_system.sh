@@ -3,4 +3,3 @@
 echo "Testing Updater script"
 # sudo yum install epel-release curl git wget -y 2>&1 >/dev/null
 # yum update -y 2>&1 >/dev/null
-sh ./child_scripts/loader.sh

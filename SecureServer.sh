@@ -16,6 +16,7 @@ git clone -q https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
 chmod +x /usr/src/Server_Audit/ -R
 echo "Running Full System Update"
 sh ./child_scripts/update_system.sh
+sh ./child_scripts/loader.sh
 #Main Script starts
 sh main.sh
 echo "Cleaning Up...Please Wait"
