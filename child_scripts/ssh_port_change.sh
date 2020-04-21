@@ -2,11 +2,11 @@
 #Linux Basic Security Setup v1.2
 echo ""
 echo "============================="
-echo "Changing SSH port to >> 22133"
+echo "Changing SSH port to >> 33122"
 echo "============================="
-sed -i 's/#Port 22/Port 22133/g' /etc/ssh/sshd_config
+sed -i 's/#Port 22/Port 33122/g' /etc/ssh/sshd_config
 echo "New SSH Port::"
-grep 22133 /etc/ssh/sshd_config --color
+grep 33122 /etc/ssh/sshd_config --color
 service sshd restart
 echo ""
 echo "SSH Service Status::"
