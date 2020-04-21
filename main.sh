@@ -4,6 +4,7 @@ echo "\n"
 echo ""
 echo "Running Full System Update"
 echo "------------------------------------"
+sh /usr/src/Server_Audit/child_scripts/update_system.sh
 echo ""
 echo ""
 echo "2. Disabling SELINUX"
