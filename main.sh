@@ -14,7 +14,7 @@ echo ""
 echo ""
 echo "3. CSF will be installed"
 echo "------------------------------------"
-sh ./child_scripts/csf_setup.sh"
+sh ./child_scripts/csf_setup.sh
 echo ""
 echo ""
 echo "3. Rkhunter Will be installed"
