@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #Linux Basic Security Setup v1.2
+echo ""
 echo "1. Disabling SELINUX"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/selinux_disable.sh
