@@ -12,7 +12,7 @@ echo ""
 echo "Installing Required Modules...."
 sudo yum install epel-release curl git wget -y 2>&1 >/dev/null
 echo "Done"
-echo "Setting Up Working Directories [/usr/src/]"
+echo "Setting Up Working Directories"
 rm -rf /usr/src/Server_Audit
 cd /usr/src/
 git clone https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
