@@ -9,11 +9,4 @@ echo "Testing Port Changer script"
 # echo "New SSH Port::"
 # grep 33122 /etc/ssh/sshd_config --color
 # service sshd restart
-# echo ""
-# echo "SSH Service Status::"
-# service sshd status |awk '{print $2,$3}' | grep active --color
-# echo "-----------------------------"
-# echo ""
-# echo "!! MANUAL Verify !!"
-# echo ""
 echo "Testing Port Changer script::Done"
