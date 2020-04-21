@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Linux Basic Security Setup v1.2
-echo "Testing CSF script"
 # yum install wget -y
 # yum install perl-libwww-perl.noarch perl-LWP-Protocol-https.noarch perl-GDGraph -y 2>&1 >/dev/null
 # cd /usr/src
@@ -27,4 +26,4 @@ echo "Testing CSF script"
 # /usr/sbin/csf -f 2>&1 >/dev/null
 # echo "Reloading CSF..."
 # /usr/sbin/csf -r 2>&1 >/dev/null
-echo "Testing CSF script::Done"
+echo "done"
