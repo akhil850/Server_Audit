@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Linux Basic Security Setup v1.2
-echo "\n"
+echo ""
 echo ""
 echo "Running Full System Update"
 echo "------------------------------------"
