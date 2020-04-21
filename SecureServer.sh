@@ -9,7 +9,6 @@ echo "Starting Time : $DATE $TIME"
 echo ""
 echo "#######################################"
 echo ""
-echo "Setting Up Working Directories"
 cd /usr/src/
 rm -rf Server_Audit
 git clone -q https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
