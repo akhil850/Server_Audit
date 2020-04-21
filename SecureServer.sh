@@ -15,9 +15,10 @@ echo "Done"
 echo "Setting Up Working Directories"
 rm -rf /usr/src/Server_Audit
 cd /usr/src/
-git clone https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
+git clone -q https://github.com/akhil850/Server_Audit.git
+chmod +x /usr/src/Server_Audit/ -R
 cd Server_Audit/
-#Main Script startes
+#Main Script starts
 sh main.sh
 echo "Cleaning Up Working Directories..Please Wait"
 rm -rf /usr/src/Server_Audit/
