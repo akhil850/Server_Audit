@@ -22,9 +22,9 @@ rm -rf /usr/src/Server_Audit/
 clear
 echo ""
 echo ""
-echo $'\e[1;36m'#######################################$'\e[0m'
+echo $'\e[1;41m'#######################################$'\e[0m'
 echo ""
-echo -e "\e[1;41mLinux Basic Security Setup v1.3 \e[0m"
+echo -e "\e[1;36mLinux Basic Security Setup v1.3 \e[0m"
 echo ""
 echo -e "\e[1;32m ** Completed ** \e[0m"
 echo ""
