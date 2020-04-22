@@ -2,13 +2,13 @@
 #Linux Basic Security Setup v1.2
 DATE=$(date +"%m-%d-%Y")
 TIME=$(date +"%r")
-echo -e "\e[1;36m#######################################\e[0m"
+echo $'\e[1;41m'#######################################$'\e[0m'
 echo ""
 echo -e "\e[1;36mLinux Basic Security Setup v1.2 \e[0m"
 echo ""
 echo "Starting Time : $DATE $TIME"
 echo ""
-echo -e "\e[1;36m#######################################\e[0m"
+echo $'\e[1;41m'#######################################$'\e[0m'
 echo ""
 cd /usr/src/
 rm -rf Server_Audit
