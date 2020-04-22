@@ -2,12 +2,18 @@
 #Linux Basic Security Setup v1.2
 DATE=$(date +"%m-%d-%Y")
 TIME=$(date +"%r")
-echo "#######################################"
+red=$'\e[1;31m'
+grn=$'\e[1;32m'
+blu=$'\e[1;34m'
+mag=$'\e[1;35m'
+cyn=$'\e[1;36m'
+white=$'\e[0m'
+echo $'\e[43m'#######################################$white
 echo ""
-echo "Linux Basic Security Setup v1.2"
+echo -e "\e[1;36mLinux Basic Security Setup v1.2 \e[0m"
 echo "Starting Time : $DATE $TIME"
 echo ""
-echo "#######################################"
+echo $'\e[43m'#######################################$white
 echo ""
 cd /usr/src/
 rm -rf Server_Audit
@@ -16,20 +22,18 @@ chmod +x /usr/src/Server_Audit/ -R
 #Main Script starts
 cd /usr/src/Server_Audit/
 sh main.sh
-echo "Cleaning Up...Please Wait"
+echo -e "\e[1;36mCleaning Up...Please Wait \e[0m"
 rm -rf /usr/src/Server_Audit/
 clear
 echo ""
 echo ""
-echo "#######################################"
-echo "#######################################"
+echo $'\e[43m'#######################################$white
 echo ""
 echo "!!!!! Completed !!!!!"
 echo ""
-echo "Linux Basic Security Setup v1.2"
+echo -e "\e[1;36mLinux Basic Security Setup v1.2 \e[0m"
 echo "Completed Time : $DATE $TIME"
 echo ""
-echo "#######################################"
-echo "#######################################"
+echo $'\e[43m'#######################################$white
 echo ""
 echo ""

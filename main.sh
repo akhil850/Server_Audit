@@ -2,27 +2,28 @@
 #Linux Basic Security Setup v1.2
 echo ""
 echo ""
-echo "1. Running Full System Update"
+echo -e "\e[1;33m1. Full System Update\e[0m"
+echo ""
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/update_system.sh
 echo ""
 echo ""
-echo "2. Disabling SELINUX"
+echo -e "\e[1;33m2. Disabling SELINUX\e[0m"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/selinux_disable.sh
 echo ""
 echo ""
-echo "3. CSF will be installed"
+echo -e "\e[1;33m3. CSF Installation\e[0m"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/csf_setup.sh
 echo ""
 echo ""
-echo "4. Rkhunter will be installed"
+echo -e "\e[1;33m4. Rkhunter Installation\e[0m"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/rkhunter_setup.sh
 echo ""
 echo ""
-echo "5. SSH Port will be changed to 33122"
+echo -e "\e[1;33m5. SSH Port change to$red 33122\e[0m"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/ssh_port_change.sh
 echo ""
