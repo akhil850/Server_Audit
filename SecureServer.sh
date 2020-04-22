@@ -3,6 +3,7 @@
 DATE=$(date +"%m-%d-%Y")
 TIME=$(date +"%r")
 white=$'\e[0m'
+echo ""
 echo $'\e[1;41m'#######################################$'\e[0m'
 echo ""
 echo -e "\e[1;36mLinux Basic Security Setup v1.2 \e[0m"
