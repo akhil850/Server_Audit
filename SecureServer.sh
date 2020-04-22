@@ -37,3 +37,4 @@ echo "Completed Time : $DATE $TIME"
 echo ""
 echo $'\e[43m'#######################################$white
 echo ""
+echo ""
