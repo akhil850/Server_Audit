@@ -19,9 +19,11 @@ sh main.sh
 echo "Cleaning Up...Please Wait"
 rm -rf /usr/src/Server_Audit/
 clear
+echo ""
+echo ""
 echo "#######################################"
 echo "#######################################"
-echo
+echo ""
 echo "!!!!! Completed !!!!!"
 echo ""
 echo "Linux Basic Security Setup v1.2"
@@ -29,3 +31,5 @@ echo "Completed Time : $DATE $TIME"
 echo ""
 echo "#######################################"
 echo "#######################################"
+echo ""
+echo ""
