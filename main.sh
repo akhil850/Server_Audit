@@ -2,7 +2,7 @@
 #Linux Basic Security Setup v1.2
 echo ""
 echo ""
-echo "Running Full System Update"
+echo "1. Running Full System Update"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/update_system.sh
 echo ""
