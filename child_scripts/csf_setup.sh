@@ -26,4 +26,4 @@
 # /usr/sbin/csf -f 2>&1 >/dev/null
 # echo "Reloading CSF..."
 # /usr/sbin/csf -r 2>&1 >/dev/null
-echo "done"
+echo -e "\e[1;35mDone \e[0m"

@@ -5,4 +5,4 @@
 # echo "New SSH Port::"
 # grep 33122 /etc/ssh/sshd_config --color
 # service sshd restart
-echo "Done"
+echo -e "\e[1;35mDone \e[0m"

@@ -29,9 +29,9 @@ echo ""
 echo ""
 echo $'\e[43m'#######################################$white
 echo ""
-echo -e "\e[1;32m ** Completed ** \e[0m"
+echo -e "\e[1;36mLinux Basic Security Setup v1.3 \e[0m"
 echo ""
-echo -e "\e[1;36mLinux Basic Security Setup v1.2 \e[0m"
+echo -e "\e[1;32m ** Completed ** \e[0m
 echo ""
 echo "Completed Time : $DATE $TIME"
 echo ""

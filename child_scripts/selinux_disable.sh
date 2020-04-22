@@ -3,4 +3,4 @@
 # setenforce 0
 # sudo sed -i 's/enforcing/disabled/g' /etc/selinux/config
 # sudo sestatus
-echo "Done"
+echo -e "\e[1;35mDone \e[0m"
