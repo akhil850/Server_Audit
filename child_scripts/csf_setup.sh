@@ -3,11 +3,10 @@
 yum install perl-libwww-perl.noarch perl-LWP-Protocol-https.noarch perl-GDGraph -y 2>&1 >/dev/null
 cd /usr/src
 rm -rf csf.tgz 2>&1 >/dev/null
-wget https://download.configserver.com/csf.tgz 2>&1 >/dev/null
+wget https://download.configserver.com/csf.tgz 2>&1 -q
 tar -xzf csf.tgz 2>&1 >/dev/null
 cd csf
 sh install.sh 2>&1 >/dev/null
-sh /usr/local/csf/bin/remove_apf_bfd.sh 2>&1 >/dev/null
 # systemctl stop firewalld 2>&1 >/dev/null
 # systemctl disable firewalld 2>&1 >/dev/null
 # echo "Testing CSF Compatibility"
