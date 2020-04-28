@@ -34,6 +34,8 @@ echo -e "\e[1;32m ** Completed ** \e[0m"
 echo ""
 echo "Completed Time : $DATE $TIME"
 echo ""
+echo  -e "\033[37;5;7m Proceed to Reboot \033[0m"
+echo ""
 echo $'\e[1;41m'#######################################$'\e[0m'
 echo ""
 echo ""
