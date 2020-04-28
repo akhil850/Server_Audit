@@ -2,13 +2,13 @@
 
 ![License: AGPL v3](https://img.shields.io/github/license/akhil850/Server_Audit)
 
-A Bash Script Automates commonly used linux server secuirty setups.
+A Bash Script Automates commonly used linux server secuirty setups, works best with fresh servers.
 
 1.Full System Update
 2.Disabling SELINUX
-3.SSH Port changing
-4.Rkhunter Installation
-5.CSF Installation
+3.Change SSH Port
+4.Rkhunter Setup
+5.CSF Setup
 6.Adding Admin and Cloudflare IPs
 
 ### Tech
@@ -28,8 +28,8 @@ Install the dependencies and and start the server.
 
 ```sh
 [centos]
-$ yum install curl git
-
+$ yum install curl
+.
 [Debian Linux 10/9/8]
 $ sudo apt-get install curl
 ```
