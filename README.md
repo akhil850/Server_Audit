@@ -28,7 +28,7 @@ Install the dependencies and and start the server.
 
 ```sh
 [centos]
-$ yum install curl
+$ yum install curl git
 
 [Debian Linux 10/9/8]
 $ sudo apt-get install curl
