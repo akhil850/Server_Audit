@@ -2,7 +2,7 @@
 
 ![License: AGPL v3](https://img.shields.io/github/license/akhil850/Server_Audit)
 
-Automates commonly used linux server secuirty setups.
+Script Automates commonly used linux server secuirty setups.
 
 1.Full System Update
 2.Disabling SELINUX
