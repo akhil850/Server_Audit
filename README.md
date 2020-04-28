@@ -13,7 +13,7 @@ Automates the following tasks
 3.SSH Port changing
 4.Rkhunter Installation
 5.CSF Installation
-6.Adding Admin IPs
+6.Adding Admin and Cloudflare IPs
 -------------------------------------
 
 ### Prerequisites
