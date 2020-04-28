@@ -18,7 +18,7 @@ Used a number of open source projects to work properly:
 * [Curl] - cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols.
 * [bash] - command language interpreter
 
-And of course Linux Basic Security Setup v1.2 itself is open source with a public repository on [GitHub](git-repo-url)
+And of course Linux Basic Security Setup v1.3 itself is open source with a public repository on [GitHub](git-repo-url)
 
 ### Execution
 
