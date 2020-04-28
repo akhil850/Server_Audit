@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Linux Basic Security Setup v1.2
+#Linux Basic Security Setup v1.3
 DATE=$(date +"%m-%d-%Y")
 TIME=$(date +"%r")
 white=$'\e[0m'

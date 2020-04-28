@@ -1,4 +1,4 @@
-# Linux Basic Security Setup v1.2
+# Linux Basic Security Setup v1.3
 
 ![License: AGPL v3](https://img.shields.io/github/license/akhil850/Server_Audit)
 
@@ -15,7 +15,7 @@ Automates commonly used linux server secuirty setups.
 
 Used a number of open source projects to work properly:
 
-* [Curl] - cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols. 
+* [Curl] - cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols.
 * [bash] - command language interpreter
 
 And of course Linux Basic Security Setup v1.2 itself is open source with a public repository on [GitHub](git-repo-url)
@@ -31,7 +31,7 @@ Install the dependencies and devDependencies and start the server.
 $ yum install curl
 
 [Debian Linux 10/9/8]
-$ sudo apt-get install curl 
+$ sudo apt-get install curl
 ```
 
 Execute the script...
@@ -51,4 +51,3 @@ Want to contribute? Great!
 
 [Server_Audit]: <https://github.com/akhil850/Server_Audit>
 [git-repo-url]: <https://github.com/akhil850/Server_Audit.git>
-

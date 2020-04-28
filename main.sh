@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Linux Basic Security Setup v1.2
+#Linux Basic Security Setup v1.3
 echo ""
 echo ""
 echo -e "\e[1;33m1. Full System Update\e[0m"

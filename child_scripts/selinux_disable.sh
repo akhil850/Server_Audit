@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Linux Basic Security Setup v1.2
+#Linux Basic Security Setup v1.3
 setenforce 0  2>&1 >/dev/null
 sudo sed -i 's/enforcing/disabled/g' /etc/selinux/config
 sudo sestatus
