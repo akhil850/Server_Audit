@@ -1,41 +1,54 @@
-# Project Title
+# Linux Basic Security Setup v1.2
 
-Linux Basic Security Setup v1.2
-
-## Getting Started
+![License: AGPL v3](https://img.shields.io/github/license/akhil850/Server_Audit)
 
 Automates commonly used linux server secuirty setups.
 
-Automates the following tasks
--------------------------------------
 1.Full System Update
 2.Disabling SELINUX
 3.SSH Port changing
 4.Rkhunter Installation
 5.CSF Installation
 6.Adding Admin and Cloudflare IPs
--------------------------------------
 
-### Prerequisites
+### Tech
 
-Curl is reuqired to execute this script
+Used a number of open source projects to work properly:
 
-ex. yum install curl
+* [Curl] - cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols. 
+* [bash] - command language interpreter
 
-### Installation/Execution
+And of course Linux Basic Security Setup v1.2 itself is open source with a public repository on [GitHub](git-repo-url)
 
-curl -s https://raw.githubusercontent.com/akhil850/Server_Audit/master/SecureServer.sh | bash
+### Execution
 
-## Authors
+Script requires [curl](https://curl.haxx.se/) to run.
 
-* **Akhil Varughese** - *Initial work* - [akhil850](https://github.com/akhil850/)
+Install the dependencies and devDependencies and start the server.
 
-## License
+```sh
+[centos]
+$ yum install curl
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+[Debian Linux 10/9/8]
+$ sudo apt-get install curl 
+```
 
-## Acknowledgments
+Execute the script...
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+```sh
+$ curl -s https://raw.githubusercontent.com/akhil850/Server_Audit/master/SecureServer.sh | bash
+```
+
+### Development
+
+Want to contribute? Great!
+
+
+**Free Software, Hell Yeah!**
+
+[//]: # (These are reference links used in the body of this note)
+
+[Server_Audit]: <https://github.com/akhil850/Server_Audit>
+[git-repo-url]: <https://github.com/akhil850/Server_Audit.git>
+
