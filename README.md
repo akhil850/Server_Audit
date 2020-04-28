@@ -6,7 +6,7 @@ A Bash Script Automates commonly used linux server secuirty setups, works best w
 
 1.Full System Update
 2.Disabling SELINUX
-3.Change SSH Port
+3.Change SSH Port [33122]
 4.Rkhunter Setup
 5.CSF Setup
 6.Adding Admin and Cloudflare IPs
