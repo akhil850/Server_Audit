@@ -24,7 +24,7 @@ And of course Linux Basic Security Setup v1.2 itself is open source with a publi
 
 Script requires [curl](https://curl.haxx.se/) to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and and start the server.
 
 ```sh
 [centos]
