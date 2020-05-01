@@ -16,7 +16,7 @@ A Bash Script Automates commonly used linux server secuirty setups, works best w
 
 6.Adding Admin and Cloudflare IPs
 
-### Execution
+### Execution/Working
 
 Script requires [curl](https://curl.haxx.se/) to run.
 
