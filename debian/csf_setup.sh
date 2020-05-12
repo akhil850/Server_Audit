@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
-#Linux Basic Security Setup v1.3
-yum install perl-libwww-perl.noarch perl-LWP-Protocol-https.noarch perl-GDGraph -y 2>&1 >/dev/null
+#Linux Basic Security Setup v1.4
+# On APT based systems:
+apt-get install libwww-perl liblwp-protocol-https-perl libgd-graph-perl
 cd /usr/src
 rm -rf csf.tgz 2>&1 >/dev/null
 wget https://download.configserver.com/csf.tgz 2>&1 -q
 tar -xzf csf.tgz 2>&1 >/dev/null
+sh /usr/local/csf/bin/remove_apf_bfd.sh 2>&1 >/dev/null
 cd csf
 sh install.sh 2>&1 >/dev/null
 # systemctl stop firewalld 2>&1 >/dev/null
@@ -21,5 +23,4 @@ sed -i 's/TESTING = "1"/TESTING = "0"/g' /etc/csf/csf.conf
 csf -e 2>&1 >/dev/null
 csf -f 2>&1 >/dev/null
 csf -r 2>&1 >/dev/null
-# echo "Flushing CSF..."
 echo -e "\e[1;35mDone \e[0m"
