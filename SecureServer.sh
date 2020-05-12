@@ -15,7 +15,7 @@ echo $'\e[1;41m'#######################################$'\e[0m'
 echo ""
 cd /usr/src/
 rm -rf Server_Audit
-yum install curl -y 2>&1 >/dev/null
+yum install curl git -y 2>&1 >/dev/null
 git clone -q https://github.com/akhil850/Server_Audit.git  2>&1 >/dev/null
 chmod +x /usr/src/Server_Audit/ -R
 #Main Script starts
