@@ -1,16 +1,34 @@
-New-NetFirewallRule -DisplayName 'MCB-Web-Servers' -Profile @('Domain', 'Private','Public') -Direction Inbound -Action Allow
-New-NetFirewallRule -DisplayName 'MCB-DB-Servers' -Profile @('Domain', 'Private','Public') -Direction Inbound -Action Allow
-
-$name1 = Get-NetFirewallrule -DisplayName "MCB-Web-Servers"
-$ips1 = @("103.24.202.216", "103.24.203.131","103.24.203.137" ,"103.24.200.112","103.24.203.144","103.24.203.15","188.42.96.72","103.24.200.197","103.24.200.164","103.24.200.98")
+New-NetFirewallRule -DisplayName 'cloudflare-Ipv4' -Profile @('Domain', 'Private','Public') -Direction Inbound -Action Allow
+$name1 = Get-NetFirewallrule -DisplayName "cloudflare-Ipv4"
+$ips1 = @("173.245.48.0/20",
+"103.21.244.0/22",
+"103.22.200.0/22",
+"103.31.4.0/22",
+"141.101.64.0/18",
+"108.162.192.0/18",
+"190.93.240.0/20",
+"188.114.96.0/20",
+"197.234.240.0/22",
+"198.41.128.0/17",
+"162.158.0.0/15",
+"104.16.0.0/12",
+"172.64.0.0/13",
+"131.0.72.0/22")
 
 foreach($r1 in $name1)
 {
     Set-NetFirewallRule -DisplayName $r1.DisplayName -RemoteAddress $ips1
 }
-
-$name2 = Get-NetFirewallrule -DisplayName "MCB-DB-Servers"
-$ips2 = @("188.42.97.34", "103.24.202.7","188.42.97.76","188.42.97.78","188.42.97.45","103.24.203.130","188.42.96.253","188.42.96.23","103.24.202.8")
+#Set_2
+New-NetFirewallRule -DisplayName 'cloudflare-Ipv6' -Profile @('Domain', 'Private','Public') -Direction Inbound -Action Allow
+$name2 = Get-NetFirewallrule -DisplayName "cloudflare-Ipv6"
+$ips2 = @("2400:cb00::/32",
+"2606:4700::/32",
+"2803:f800::/32",
+"2405:b500::/32",
+"2405:8100::/32",
+"2a06:98c0::/29",
+"2c0f:f248::/32")
 
 foreach($r2 in $name2)
 {
