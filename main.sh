@@ -23,11 +23,6 @@ echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/rkhunter_setup.sh
 echo ""
 echo ""
-echo -e "\e[1;33m5. CSF Installation\e[0m"
-echo "------------------------------------"
-sh /usr/src/Server_Audit/child_scripts/csf_setup.sh
-echo ""
-echo ""
 echo -e "\e[1;33m6. Adding Admin and Cloudflare IPs\e[0m"
 echo "------------------------------------"
 sh /usr/src/Server_Audit/child_scripts/allow_ips.sh
